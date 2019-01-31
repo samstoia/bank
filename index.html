@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Bank Account</title>
+  </head>
+  <body>
+
+  <div class="container">
+    <form id="bankInputs">
+      <div class="form-group">
+        <label for="accountName">Your Name</label>
+        <input type="text" class="bankForm" id="accountName" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label for="initialDeposit">Initital Deposit</label>
+        <input type="text" class="bankForm" id="initialDeposit" placeholder="Initial Deposit">
+        <input id="submitButton" class="btn btn-primary" type="submit" value="Create Account">
+        </form>
+      </div>
+      <div class="form-group">
+        <label for="deposit">Deposit</label>
+        <input type="text" class="bankForm" id="deposit" placeholder="Deposit">
+        <input id="depositButton" class="btn btn-primary" type="click" value="Make Deposit">
+      </div>
+      <div class="form-group">
+        <label for="initialDeposit">Withdrawal</label>
+        <input type="text" class="bankForm" id="withdrawal" placeholder="Withdrawal">
+        <input id="withdrawButton" class="btn btn-primary" type="click" value="Withdraw Funds">
+      </div>
+
+
+  </div>
+  <div id="balanceDisplay">
+
+  </div>
+
+
+  </body>
+
+</html>
